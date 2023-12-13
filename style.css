@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Lato&family=Montserrat:wght@600&family=Open+Sans&family=Playfair+Display:wght@700&family=Space+Mono&family=Syne:wght@800&display=swap');
+body, p {
+  margin: 0;
+  padding: 0;
+}
+header, body, footer {
+  background-image: url("bg2.jpg");
+}
+
+.header {
+  font-family: "Syne", sans-serif;
+  text-align: center;
+  color: #ffffff; 
+  text-shadow: 0px 0px 5px #AEFFD8;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#separate {
+  text-align: center;
+  color:#ffffff;
+  font-size: 40px;
+  text-shadow: 0px 0px 5px #AEFFD8;
+  font-family: "Syne", sans-serif;
+}
+
+.topics {
+  margin-bottom: 25px;
+  margin-right: 3px;
+  border-radius: 25px;
+}
+
+#topic1, 
+#topic3, 
+#topic5 {
+  background-color: #2E3038;
+  margin: 20px;
+}
+
+#topic1 h2,
+#topic3 h2,
+#topic5 h2 {
+  background-color: #AEFFD8;
+  font-family: "Exo", sans-serif;
+  color: #2E3038;
+  border-radius: 10px;
+  left: 20px;
+  right: 20px;
+  text-align:center;
+}
+
+#topic1 p,
+#topic3 p,
+#topic5 p {
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 10px;
+  clear: right;
+}
+
+#topic2, 
+#topic4 {
+  background-color: #2E3038;
+  margin: 20px;
+}
+
+#topic2 h2,
+#topic4 h2 {
+  background-color: #44A5C5;
+  font-family: "Exo", sans-serif;
+  color: #2E3038;
+  border-radius: 10px;
+  left: 20px;
+  right: 20px;
+  text-align:center;
+}
+
+#topic2 p,
+#topic4 p {
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 10px;
+  clear: right;
+}
+
+.creator-info, 
+.creator-contact, 
+p, 
+a {
+  color: #ffffff;
+}
+
+img {
+  max-width: 320px;
+  float: left;
+  border-radius: 15px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.content {
+  font-family: "Space Mono", sans-serif;
+  margin-left: 5px;
+}
+/* Style for the entire footer */
+footer {
+  background-color: #25272E;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the creator information */
+.creator-info {
+  text-align: left;
+}
+
+.creator-info p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+/* Style for the creator contact links */
+.creator-contact a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  color: #FFFFFF;
+  font-size: 40px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.reflection {
+  margin: 20px;
+}
